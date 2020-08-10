@@ -2,7 +2,7 @@
 
 ## Bookmarklet
 
-You can run the bookmarklet by using the following:  
+Below is the bookmarklet:  
 ```javascript
 javascript:v=document.getElementsByTagName(%22video%22)[0],v.loop=!0,v.addEventListener(%22ended%22,v.play),a=document.createAttribute(%22loop%22),a.value=%22true%22,v.setAttributeNode(a),alert(%22Done!%22);
 ```
